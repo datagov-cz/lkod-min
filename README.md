@@ -7,7 +7,7 @@ Pro její zprovoznění stačí tento repozitář [forknout](https://docs.github
 Pro přidání či editaci záznamu použijte [formulář NKOD v režimu LKOD](https://data.gov.cz/formulář/registrace-datové-sady).
 Režim se přepíná ikonou ozubeného kolečka vedle tlačítka stažení vyplněného záznamu.
 Tam je také potřeba vyplnit IRI poskytovatele a IRI datové sady. Výsledný soubor uložte do repozitáře.
-Uložení automaticky spustí [GitHub Action](https://github.com/features/actions), která repozitář projde, a nalezené datové sady zařadí do [souboru katalogu](katalog.jsonld).
+Uložení automaticky spustí [GitHub Action](https://github.com/features/actions), která repozitář projde, a vytvoří [soubor katalogu](katalog.jsonld) na základě [šablony](katalog-šablona.jsonld) a nalezených datových sad.
 
 ### IRI datových sad
 Je třeba se ujistit, že IRI datové sady vyplněné v záznamu na tento záznam po jeho uložení do repozitáře povede.
