@@ -1,5 +1,6 @@
 # Minimalistický lokální katalog otevřených dat
 Toto je minimalistická verze lokálního katalogu otevřených dat, která celá běží na GitHubu, a tedy zdarma.
+Je kompatibilní s [rozhraním DCAT-AP Dokumenty](https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/#dcat-ap-dokumenty) dle [Otevřené formální normy Rozhraní katalogů otevřených dat: DCAT-AP-CZ](https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/).
 Pro její zprovoznění stačí tento repozitář [forknout](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) a upravit [šablonu katalogu](katalog-šablona.jsonld).
 
 ## Záznamy datových sad
