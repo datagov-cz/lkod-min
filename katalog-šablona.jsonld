@@ -1,0 +1,24 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/katalog.jsonld",
+    "typ": "Katalog",
+    "název": {
+        "cs": "Lokální katalog otevřených dat",
+        "en": "Local open data catalog"
+    },
+    "popis": {
+        "cs": "Lokální katalog otevřených dat",
+        "en": "Local open data catalog"
+    },
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+          "cs": "Jan Novák",
+          "en": "John Newman"
+        },
+        "e-mail": "mailto:newman@organization.cz"
+    },
+    "domovská_stránka": "https://data.gov.cz",
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008",
+    "datová_sada": []
+}

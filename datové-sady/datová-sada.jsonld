@@ -1,0 +1,67 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/datové-sady/datová-sada.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "První datová sada",
+    "en": "First dataset"
+  },
+  "popis": {
+    "cs": "Popis první datové sady v novém lokálním katalogu",
+    "en": "Description of the first data set in a new local catalog"
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/country/CZE"
+  ],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "nová",
+      "lkod"
+    ],
+    "en": [
+      "new",
+      "lkod"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/WEEKLY",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/6894"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Kontakt pro otevřená data"
+    },
+    "e-mail": "mailto:data@organizace.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/datové-sady/datová-sada.jsonld/distribuce/0",
+      "název": {
+        "cs": "Data v CSV",
+        "en": "Data in CSV"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.organizace.cz/soubory/data.csv",
+      "přístupové_url": "https://data.organizace.cz/soubory/data.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://data.organizace.cz/soubory/data.csv-metadata.json"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+name: VytvořitLokálníKatalog
+
+on:
+  push:
+  pull_request:
+    branches:
+    - master
+jobs:
+  create-catalog:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - name: Vytvořit soubor katalogu
+      uses: opendata-mvcr/lkod-github-actions/create-catalog-file@master
+      with: 
+       datasets-root: ${{ github.workspace }}
+       catalog-template-file: ${{ github.workspace }}/katalog-šablona.jsonld
+       filter-output-file: ${{ github.workspace }}/katalog.jsonld
+    - name: Commit & Push změn
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        message: "Aktualizovat lokální katalog"
