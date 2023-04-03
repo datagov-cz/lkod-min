@@ -1,6 +1,6 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/katalog.jsonld",
+    "iri": "https://raw.githubusercontent.com/datagov-cz/lkod-min/main/katalog.jsonld",
     "typ": "Katalog",
     "název": {
         "cs": "Lokální katalog otevřených dat",
@@ -19,6 +19,6 @@
         "e-mail": "mailto:newman@organization.cz"
     },
     "domovská_stránka": "https://data.gov.cz",
-    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008",
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/17651921",
     "datová_sada": []
 }
