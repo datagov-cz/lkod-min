@@ -16,7 +16,7 @@ jobs:
         branch: main
         fetch-depth: 0
     - name: Vytvořit soubor katalogu
-      uses: opendata-mvcr/lkod-github-actions/create-catalog-file@master
+      uses: datagov-cz/lkod-github-actions/create-catalog-file@master
       with: 
        datasets-root: ${{ github.workspace }}
        catalog-template-file: ${{ github.workspace }}/katalog-šablona.jsonld
